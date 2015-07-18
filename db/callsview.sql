@@ -1,0 +1,2 @@
+﻿DROP VIEW IF EXISTS `sales`.`callsview`;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `callsview` AS select distinct `customer`.`company` AS `company`,`person`.`name` AS `name`,`calls`.`date` AS `date`,`calls`.`feedback` AS `feedback`,`calls`.`remarks` AS `remarks` , `person`.`uid` AS `uid` from ((`calls` join `customer` on((`calls`.`custid` = `customer`.`custid`))) join `person` on((`calls`.`uid` = `person`.`UID`)));

@@ -1,0 +1,35 @@
+@import "variables";
+
+html{font-size:14px;}
+
+body{margin:0;padding:0;position:relative;}
+
+h1,h2,h3,h4,div,p{margin:0;padding:0;}
+
+h1{font-size:3.3rem;}
+
+header#mainheader
+{
+	color:$primary_color;
+	background-color:#ccc;
+	text-align:center;
+	
+}
+
+#loginwrapper
+{
+	background-color:#ccc;
+	padding:25px;
+	
+	.label{color:#FFF;font-size:1.3rem;}
+	
+	#loginbtn
+	{
+		color:$accent_color;
+		background-color:#fff;
+		width:100%;
+		margin-left:15px;
+		margin-top:10px;
+		font-size:1.3rem;
+	}
+}

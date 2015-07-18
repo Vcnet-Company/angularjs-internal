@@ -1,0 +1,33 @@
+html {
+  font-size: 14px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+h1, h2, h3, h4, div, p {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 3.3rem; }
+
+header#mainheader {
+  color: #3f51b5;
+  background-color: #ccc;
+  text-align: center; }
+
+#loginwrapper {
+  background-color: #ccc;
+  padding: 25px; }
+  #loginwrapper .label {
+    color: #FFF;
+    font-size: 1.3rem; }
+  #loginwrapper #loginbtn {
+    color: #f44336;
+    background-color: #fff;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 1.3rem; }
