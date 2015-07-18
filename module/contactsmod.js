@@ -7,14 +7,14 @@ var appmodule = angular.module('appmodule',['ngRoute'])
 		 $routeProvider
 			 .when('/customers',{
 				controller: 'CustomerCtrl',
-				templateUrl: 'pages/customers.html'
+				templateUrl: 'pages/customers.php'
 			 })
 			 .when('/login',{
-				 templateUrl: 'pages/login.html'
+				 templateUrl: 'pages/login.php'
 			 })
 			 .when('/calls',{
 				 controller: 'CallController',
-				 templateUrl: 'pages/calls.html'
+				 templateUrl: 'pages/calls.php'
 			 })
 			 .otherwise({redirectTo: '/login'});
 	}]);

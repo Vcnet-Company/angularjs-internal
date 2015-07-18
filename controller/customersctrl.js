@@ -1,6 +1,5 @@
 appmodule.controller('CustomerCtrl',['$scope','CustomersFact',function($scope,CustomersFact){
 	init();
-	location.reload();
 	function init()
 	{
 		CustomersFact.getData()
